@@ -21,13 +21,16 @@ body {
   width: 1024px;
 }
 
-.bio {
+.card {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 0 22px rgba(0, 0, 0, 0.21);
+}
+
+.bio {
   display: inline-flex;
   height: 23rem;
-  margin: 12rem auto;
+  margin: 12rem auto 2rem auto;
   width: 95%;
 }
 
@@ -125,4 +128,94 @@ body {
   position: relative;
   right: 26px;
   top: 206px;
+}
+
+.page-info-body {
+  /* background-color: white; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  height: 900px;
+  margin: 0 auto 5rem auto;
+  width: 95%;
+}
+
+.lower-card {
+  padding-left: 2rem;
+}
+
+.lower-card h1 {
+  color: #48639C;
+  font-family: Noto Sans;
+  font-size: 1.5rem;
+}
+
+.personality {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.frustrations {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding: 0 2rem;
+}
+
+.recent,
+.motivation {
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+.personality-li {
+  color: #48639C;
+  display: flex;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 180%;
+  justify-content: space-between;
+  list-style: none;
+  width: 80%;
+}
+
+.frustrations-li {
+  color: #989395;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 40px;
+  width: 60%;
+}
+
+.goals h1 {
+  margin-bottom: 0;
+}
+
+.goals-add {
+  align-items: center;
+  color: #a5b1cb;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
+.goals-add img {
+  height: 25px;
+}
+
+.recent-li {
+  color: #a5b1cb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  width: 60%;
 }
