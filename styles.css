@@ -3,12 +3,19 @@
 }
 
 body {
+  background: linear-gradient(to bottom, #ffcdb2, #f0edee, #f0edee);
   background-color: black;
   margin: 0;
 }
 
 .body {
-  background: linear-gradient(to bottom, #ffcdb2, #f0edee, #f0edee);
+  background-image: url('./i-like-food.svg');
+  background-repeat: repeat-x;
+  border: solid 1px #000;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
   margin: 0 auto;
   padding: 0 2.5rem;
   width: 1024px;
@@ -21,7 +28,7 @@ body {
   display: inline-flex;
   height: 23rem;
   margin: 12rem auto;
-  width: 973px;
+  width: 95%;
 }
 
 .profile-pic {
@@ -37,7 +44,7 @@ body {
 .bio-left-half {
   bottom: 9rem;
   color: #48639C;
-  font-family: Noto Sans;
+  font-family: Noto Sans, sans serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 33px;
@@ -46,10 +53,24 @@ body {
   width: 230px;
 }
 
+.bio-right-side {
+  font-size: 24px;
+  height: 264px;
+  line-height: 44px;
+  margin-top: 4%;
+  margin-left: 7%;
+  width: 560px;
+}
+
 .flag-image {
   display: inline-block;
   height: 29px;
   width: 28px;
+}
+
+.logos {
+  height: 54px;
+  width: 54px;
 }
 
 .name {
@@ -63,6 +84,25 @@ body {
   line-height: normal;
   font-size: 24px;
   color: #48639C;
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+
+.name-box {
+  align-items: center;
+  display: flex;
+  height: 58px;
+  justify-content: space-around;
+}
+
+.page-info-body {
+  margin: 0;
+}
+
+.profile-words {
+  color: #989395;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .quote {
@@ -73,6 +113,16 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 22px;
-  font-size: 12px;
+  margin: 0;
+  font-size: 16px;
   color: rgba(72, 99, 156, 0.51);
+}
+
+.social-media-logos {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  right: 26px;
+  top: 206px;
 }
