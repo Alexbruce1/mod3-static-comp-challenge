@@ -1,0 +1,78 @@
+* {
+  
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.body {
+  background: linear-gradient(to bottom, #ffcdb2, #f0edee, #f0edee);
+  margin: 0 auto;
+  padding: 0 2.5rem;
+  width: 1024px;
+}
+
+.bio {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.21);
+  display: inline-flex;
+  height: 23rem;
+  margin: 12rem auto;
+  width: 973px;
+}
+
+.profile-pic {
+  background-image: url('https://i.ytimg.com/vi/jsjQS0srelE/maxresdefault.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.24);
+  height: 173px;
+  width: 225px;
+}
+
+.bio-left-half {
+  bottom: 9rem;
+  color: #48639C;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  padding-left: 4rem;
+  position: relative;
+  width: 230px;
+}
+
+.flag-image {
+  display: inline-block;
+  height: 29px;
+  width: 28px;
+}
+
+.name {
+  /* position: absolute; */
+  width: 192px;
+  display: inline-block;
+  height: 33px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  color: #48639C;
+}
+
+.quote {
+  position: absolute;
+  width: 241px;
+  height: 52px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  font-size: 12px;
+  color: rgba(72, 99, 156, 0.51);
+}
